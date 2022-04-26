@@ -9,8 +9,8 @@ im = Image.open("./logo_ugry.png")
 st.set_page_config(page_title="Отклики на задачи", page_icon=im)
 
 # %%
-st.title("Распределение типов связи")
-st.write("Выбранные типы связи для задач. Датафрейм был отфильтрован, учитываются только следующие платформы: iOS, Android")
+st.title("Отклики на задачи")
+st.write("Количество задач, количество откликов на задачу")
 
 
 uploaded_file = st.file_uploader("Выбирете файл")
